@@ -1,0 +1,32 @@
+[colors.primary]
+background = "0x00070f"
+
+[window]
+opacity = 0.8
+
+[window.dimensions]
+columns = 128
+lines = 32
+
+[font]
+size = 14.0
+
+[colors.normal]
+black   = "0x000000"
+red     = "0xBF3F3F"
+green   = "0x3FBF3F"
+yellow  = "0xBFBF3F"
+blue    = "0x3F3FBF"
+magenta = "0xBF3FBF"
+cyan    = "0x3FBFBF"
+white   = "0xBFBFBF"
+
+[colors.bright]
+black   = "0x202020"
+red     = "0xFF7F7F"
+green   = "0x7FFF7F"
+yellow  = "0xFFFF7F"
+blue    = "0x7F7FFF"
+magenta = "0xFF7FFF"
+cyan    = "0x7FFFFF"
+white   = "0xFFFFFF"

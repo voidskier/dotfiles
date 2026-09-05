@@ -1,0 +1,55 @@
+* {
+    spacing: 0;
+    background-color: transparent;
+}
+
+window {
+    transparency: "real";
+    background-color: #00070FCC;
+    border: 2px;
+    border-color: #005FFF;
+    border-radius: 20px;
+}
+
+mainbox {
+    children: [inputbar, listview];
+    spacing: 15px;
+    padding: 15px 0;
+}
+
+inputbar {
+    padding: 0 15px 0 15px;
+    children: [entry];
+}
+
+entry {
+    text-color: #007FFF;
+}
+
+textbox {
+    text-color: #007FFF;
+    padding: 15px;
+}
+
+listview {
+    scrollbar: false;
+    margin: 0 15px 0 15px;
+}
+
+element {
+    padding: 5px;
+    spacing: 5px;
+    highlight: bold;
+    border-radius: 100%;
+    children: [element-icon, element-text];
+}
+
+element-text, element-icon {
+    background-color: inherit;
+    text-color: inherit;
+    foreground-color: inherit;
+}
+
+element normal { background-color: transparent; text-color: #007FFF; }
+
+element selected { background-color: #007FFF; text-color: #FFFFFF; }
