@@ -169,6 +169,11 @@
         <command>alacritty</command>
       </action>
     </keybind>
+    <keybind key="W-period">
+      <action name="Execute">
+        <command>rofimoji</command>
+      </action>
+    </keybind>
     <keybind key="W-S-Escape">
       <action name="Exit">
         <prompt>no</prompt>
@@ -187,6 +192,9 @@
     <!-- Tile binds -->
     <keybind key="W-f">
       <action name="ToggleFullscreen" />
+    </keybind>
+    <keybind key="W-S-f">
+      <action name="ToggleMaximize" />
     </keybind>
     <keybind key="W-S-w">
       <action name="MoveResizeTo">
